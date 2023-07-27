@@ -21,8 +21,7 @@ body {
   max-width: 666px;
   background-color: white;
   margin: 0 1rem;
-  position: relative;
-  left: 10rem;
+  
 }
 
 .img_container {
@@ -101,10 +100,11 @@ body {
   background-color: hsl(212, 21%, 14%);
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 750px) {
   .card {
     margin-top: 1rem;
     margin-bottom: 1rem;
+
   }
 
   .img_container {
@@ -134,14 +134,12 @@ body {
     border-bottom-left-radius: 0px;
   }
 }
-
+/* 
 .attribution { 
   font-size: 11px; 
   text-align: center;
-  position: relative;
-  top: 18rem;
-  right: 18rem ;
+
 
  
 }
-  .attribution a { color: hsl(228, 45%, 44%); }
+  .attribution a { color: hsl(228, 45%, 44%); } */
